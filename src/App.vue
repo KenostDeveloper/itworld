@@ -75,7 +75,7 @@
         </div>
       </div>
       
-      <div class="overflow-y-auto h-[calc(100dvh-270px)] pr-2 scrollbar-thin text-[#FFF] flex flex-col justify-center items-center gap-2" v-if="filteredTasks.length == 0">
+      <div class="overflow-y-auto h-[calc(100dvh-270px)] pr-2 scrollbar-thin text-[#FFF] flex flex-col justify-center items-center gap-2 max-lg:h-[calc(100dvh-320px)]" v-if="filteredTasks.length == 0">
         <img src="/epmty.svg" alt="">
         <div class="max-w-[400px] text-center">Ничего не найдено. Добавьте свою первую задачу или очистите список фильтров</div>
       </div>
