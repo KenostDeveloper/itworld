@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@import 'tailwindcss';
+
+*{
+  font-family: "Onest", sans-serif;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 4px; /* Толщина скролла */
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent; /* Фон трека */
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #ffffffc4; /* Цвет ползунка */
+  border-radius: 2px; /* Закругление углов */
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #ffffff; /* Цвет ползунка при наведении */
+}
