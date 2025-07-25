@@ -5,6 +5,7 @@
         <div class="text-[32px] font-medium text-[#FFF] max-sm:text-[20px]">Todo-лист</div>
         <div class="flex gap-2">
           <button
+            v-if="filteredTasks.length != 0"
             @click="exportData"
             class="flex items-center justify-center h-10 px-3 bg-white/70 hover:bg-white/90 rounded-[8px] transition-all cursor-pointer max-sm:h-8 max-sm:text-[14px]"
           >
